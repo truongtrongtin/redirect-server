@@ -1,5 +1,11 @@
 {
+  "files.readonlyInclude": {
+    "worker-configuration.d.ts": true
+  },
+  "files.watcherExclude": {
+    "worker-configuration.d.ts": true
+  },
   "search.exclude": {
-    ".wrangler": true
-  }
+    "worker-configuration.d.ts": true
+  },
 }
